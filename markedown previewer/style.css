@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,700,700italic);
+body {
+  background: green;
+}
+body * {
+  font-family: 'cabin', sans-serif;
+}
+body h1 {
+  text-align: center;
+  color: white;
+}
+body h3 {
+  color: orange;
+}
+.markdownEditor {
+  border: 1px solid white;
+  height: 410px;
+  border-radius: 5px 10px;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 85%;
+    padding: 30px;
+    text-align: left;
+  }
+}
+.input {
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+  padding: 5px;
+}
+.input textarea {
+  width: 80%;
+  height: 15em;
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .input {
+    width: 45%;
+    padding: 15px;
+    border-right: 2px dotted #e6e6e6;
+  }
+}
+.output {
+  width: 100%;
+  float: left;
+  padding: 5px;
+  margin-top: 15px;
+}
+.output .content {
+  background: #cccce5;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #323299;
+}
+.output .content p {
+  font-weight: 400;
+}
+.output .content strong {
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .output {
+    width: 45%;
+    padding: 15px;
+    margin-top: 0;
+  }
+}
